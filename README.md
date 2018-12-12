@@ -372,7 +372,7 @@ POM.xml
               <transformer
                 implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                 <manifestEntries>
-                  <Main-Class>com.rest.test.App</Main-Class>
+                  <Main-Class>dk.webtrade.jettydemo.rest.RestService</Main-Class>
                 </manifestEntries>
               </transformer>
             </transformers>
@@ -389,7 +389,7 @@ Now Run the server from command line:
 cd restprj
 mvn clean install
 cd target
-java -jar restprj.jar
+java -jar jettyDemo-1.0.jar
 ```
 
 ## JPA
